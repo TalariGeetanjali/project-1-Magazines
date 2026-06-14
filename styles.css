@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:antiquewhite;
+    min-height:190vh;
+    padding-top:100px;  
+    justify-content:center;
+    align-items:flex-start;
+    font-family:'Courier New', Courier, monospace;
+}
+.navbar{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    gap: 40px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding:10px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+}
+.search-box input{
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline:none;
+}
+.search-box button{
+    padding: 8px 12px;
+    border:none;
+    background: #4caf50;
+    color: black;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+.h1{
+    color:black;
+    position:relative;
+    font-size:50px;
+    top:0;
+    left:10px;
+}
+
+.magazine{
+    width:1500px;
+    min-height: 600px;
+    margin-top: 50px;
+    border: #fff;
+    padding:20px;
+    box-shadow:12px 12px 20px rgba(0,0,0,0.25);
+    background: white;
+    justify-content: start;
+    margin:50px auto;
+
+}
+.header{
+    position: relative;
+    padding-bottom: 10px;
+}
+.date{
+    font-size: 20px;
+    color:black;
+    display:box;
+    margin-bottom: 5px;
+}
+.header h2{
+    font-size:50px;
+    letter-spacing:2px;
+    line-height: 1;
+}
+.vertical{
+    position:absolute;
+    right:0;
+    top:15px;
+    writing-mode:horizontal-tb;
+    font-size:26px;
+}
+.image{
+     width: 1450px;
+    height:800px; 
+
+    position: relative;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyXvtEnitsN43HAJlvwX1zFjOmCImO6NznN395tnX0VKGYdg1uNNxAKj3Q9G0AJaB6DFQBYPcJLrHh20SlwkNo8ZfKqPVlPW9epEXF_ki5WXTwxba65V2FAVwL3_QplYE6qOfAuP9XrAe3/s320/Rock_Pigeon_%2528Columba_livia%2529_in_Ia%25C8%2599i.JPG")
+    center/cover no-repeat;
+}   
+.text{
+    position: relative;
+    color: white;
+} 
+.text p{
+    right:20px;
+    text-align: right;
+    margin-right: 20px;
+}
+.text h3{
+    font-size: 35px;
+    right:20px;
+    top: 1px;
+    text-align: right;
+    margin-right:20px ;
+} 
+.text h4{
+    margin-right:20px;
+    font-size:18px;
+    line-height:1.1;
+    right:50px;
+    text-align:right;
+} 
+.text h5{
+    bottom:-650px;
+    font-size:15px;
+    line-height:1;
+    left:20px;   
+    position:absolute;
+    margin:0;
+    text-align:left;
+}
+.picture2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    height:auto;
+    align-items: center;
+    gap:30px;
+}
+.picture2 img{
+    width:700px;
+    height:400px;
+    object-fit:cover;
+    box-shadow:12px 12px 20px rgba(0,0,0,0.25);
+    border-radius:2px solid;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 2px solid 20px;
+    background: white;
+}
+.content{
+    width: 800px;
+}
+
+.content h6 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 59px;
+    color: #000000;
+}
+.content p {
+    font-size: 25px;
+    line-height: 1.8;
+    color: #000000;
+    text-align: justify;
+    word-spacing: 2px;
+}
+footer{
+    background: antiquewhite;
+    color:black;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    width:100%;
+    font-weight: bold;
+    font-size: 25px;
+}
+.list{
+    font-size:20px ;
+    text-align: center;
+    margin-top:20px auto;
+    padding:30px;
+    width:100%;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+
+}
+
+ 
+
