@@ -1,6 +1,6 @@
   
-  (live-link)[https://jxwtenlptytejnhh-8080.ws4.app/]
-  
+  (live-link)[https://magazine.bytexl.live/]
+
   ### Magazine Website Project Overview
 
 A **Magazine Website** is a digital platform designed to publish articles, stories, interviews, news, and visual content in an attractive magazine-style layout. The main purpose of the project is to provide readers with an engaging and organized reading experience while allowing editors to easily manage and update content.
