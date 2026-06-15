@@ -1,5 +1,5 @@
   
-  (live-link)[https://magazine.bytexl.live/]
+  [live-link](https://magazine.bytexl.live/)
 
   ### Magazine Website Project Overview
 
